@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="arm-toolchains"
+  <remote name="gcc-toolchains"
           fetch="https://github.com/"/>
 
   <default revision="master"
-           remote="arm-toolchains"
+           remote="gcc-toolchains"
            sync-j="4"/>
 
-  <project path="binutils" name="arm-toolchains/binutils"/>
-  <project path="build" name="arm-toolchains/build"/>
-  <project path="cloog" name="arm-toolchains/cloog"/>
-  <project path="gcc" name="arm-toolchains/gcc"/>
-  <project path="glibc" name="arm-toolchains/glibc"/>
-  <project path="glibc-linuxthreads" name="arm-toolchains/glibc-linuxthreads"/>
-  <project path="gmp" name="arm-toolchains/gmp"/>
-  <project path="isl" name="arm-toolchains/isl"/>
-  <project path="kernel" name="arm-toolchains/kernel"/>
-  <project path="manifest" name="arm-toolchains/manifest"/>
-  <project path="mpc" name="arm-toolchains/mpc"/>
-  <project path="mpfr" name="arm-toolchains/mpfr"/>
-  <project path="ppl" name="arm-toolchains/ppl"/>
+  <project path="binutils" name="gcc-toolchains/binutils"/>
+  <project path="build" name="gcc-toolchains/build"/>
+  <project path="cloog" name="gcc-toolchains/cloog"/>
+  <project path="gcc" name="gcc-toolchains/gcc"/>
+  <project path="glibc" name="gcc-toolchains/glibc"/>
+  <project path="glibc-linuxthreads" name="gcc-toolchains/glibc-linuxthreads"/>
+  <project path="gmp" name="gcc-toolchains/gmp"/>
+  <project path="isl" name="gcc-toolchains/isl"/>
+  <project path="kernel" name="gcc-toolchains/kernel"/>
+  <project path="manifest" name="gcc-toolchains/manifest"/>
+  <project path="mpc" name="gcc-toolchains/mpc"/>
+  <project path="mpfr" name="gcc-toolchains/mpfr"/>
+  <project path="ppl" name="gcc-toolchains/ppl"/>
 </manifest>
