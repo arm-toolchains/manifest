@@ -5,7 +5,7 @@
           fetch="https://github.com/"/>
 
   <default revision="master"
-           remote="origin"
+           remote="arm-toolchains"
            sync-j="4"/>
 
   <project path="binutils" name="arm-toolchains/binutils"/>
