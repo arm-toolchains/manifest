@@ -9,7 +9,9 @@
            sync-j="4"/>
 
   <project path="binutils" name="gcc-toolchains/binutils"/>
-  <project path="build" name="gcc-toolchains/build"/>
+  <project path="build" name="gcc-toolchains/build">
+    <copyfile src="core/root.mk" dest="Makefile"/>
+  </project>
   <project path="ccache" name="gcc-toolchains/ccache"/>
   <project path="cloog" name="gcc-toolchains/cloog"/>
   <project path="expat" name="gcc-toolchains/expat"/>
