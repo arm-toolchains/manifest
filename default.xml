@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="gcc-toolchains"
+  <remote name="origin"
           fetch="https://github.com/"/>
 
   <default revision="master"
-           remote="gcc-toolchains"
+           remote="origin"
            sync-j="4"/>
 
   <project path="binutils" name="gcc-toolchains/binutils"/>
@@ -23,4 +23,6 @@
   <project path="mpc" name="gcc-toolchains/mpc"/>
   <project path="mpfr" name="gcc-toolchains/mpfr"/>
   <project path="ppl" name="gcc-toolchains/ppl"/>
+  <project path="prebuilts/x86_64-linux-glibc2.15-4.8"
+           name="gcc-toolchains/prebuilts-x86_64-linux-glibc2.15-4.8"/>
 </manifest>
