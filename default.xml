@@ -17,6 +17,7 @@
   <project path="expat" name="gcc-toolchains/expat"/>
   <project path="gcc" name="gcc-toolchains/gcc"/>
   <project path="gdb" name="gcc-toolchains/gdb"/>
+  <project path="glibc" name="gcc-toolchains/glibc"/>
   <project path="gmp" name="gcc-toolchains/gmp"/>
   <project path="isl" name="gcc-toolchains/isl"/>
   <project path="manifest" name="gcc-toolchains/manifest"/>
