@@ -20,6 +20,7 @@
   <project path="glibc" name="gcc-toolchains/glibc"/>
   <project path="gmp" name="gcc-toolchains/gmp"/>
   <project path="isl" name="gcc-toolchains/isl"/>
+  <project path="kernel" name="gcc-toolchains/kernel"/>
   <project path="manifest" name="gcc-toolchains/manifest"/>
   <project path="mpc" name="gcc-toolchains/mpc"/>
   <project path="mpfr" name="gcc-toolchains/mpfr"/>
