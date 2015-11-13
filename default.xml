@@ -12,19 +12,15 @@
   <project path="build" name="gcc-toolchains/build">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
-  <!--project path="ccache" name="gcc-toolchains/ccache"/> -->
-  <!--project path="cloog" name="gcc-toolchains/cloog"/>-->
   <project path="expat" name="gcc-toolchains/expat"/>
   <project path="gcc" name="gcc-toolchains/gcc"/>
   <project path="gdb" name="gcc-toolchains/gdb"/>
   <project path="glibc" name="gcc-toolchains/glibc"/>
   <project path="gmp" name="gcc-toolchains/gmp"/>
   <project path="isl" name="gcc-toolchains/isl"/>
-  <project path="kernel" name="gcc-toolchains/kernel"/>
+  <!--project path="kernel" name="gcc-toolchains/kernel"/> -->
+  <project path="kernel-headers" name="yudatun/thirdparty_kernel-headers"/>
   <project path="manifest" name="gcc-toolchains/manifest"/>
   <project path="mpc" name="gcc-toolchains/mpc"/>
   <project path="mpfr" name="gcc-toolchains/mpfr"/>
-  <!--project path="ppl" name="gcc-toolchains/ppl"/> -->
-  <!--project path="prebuilts/x86_64-linux-glibc2.15-4.8"
-      name="gcc-toolchains/prebuilts-x86_64-linux-glibc2.15-4.8"/> -->
 </manifest>
